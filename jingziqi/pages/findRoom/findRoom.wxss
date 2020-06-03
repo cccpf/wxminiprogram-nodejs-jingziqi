@@ -1,0 +1,24 @@
+/* pages/findRoom/findRoom.wxss */
+/* pages/createRoom/createRoom.wxss */
+.inputRoomInfo{
+  width:70%;
+  margin-top: 70rpx;
+}
+
+.joinRoomBtn{
+  width: 70%;
+  margin-top:80rpx;
+  background-color:rgb(43, 226, 165);
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.joinRoomBtn::after {
+  border-radius: 98rpx;
+  border: 0; 
+}

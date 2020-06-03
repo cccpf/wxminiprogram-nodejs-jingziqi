@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="input-component">
+    <input placeholder="请输入房间名:(字母或数字)" auto-focus="true" bindinput="setRoomName" maxlength="5"/>
+  </view>
+  <view class="input-component">
+    <input placeholder="请输入房间密码:(可以为空)" bindinput="setRoomPsw" maxlength="8"/>
+  </view>
+  <view class="input-component">
+    <radio-group bindchange="setPlayerOrder">
+      <radio value="o" checked="true"/>您为先手
+      <radio value="p"/>您为后手
+    </radio-group>
+  </view>
+ 
+  <button class="submit-btn" bindtap="createRoom">
+    <view>创建房间</view>
+  </button>
+
+</view>

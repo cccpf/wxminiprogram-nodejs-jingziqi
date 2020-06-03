@@ -1,0 +1,57 @@
+
+<view class="container">
+  <view class="winner">
+    <view>{{winnerinfo}}</view>
+  </view>
+  <view class="playInfo">
+    <view>{{othername}}</view>
+  </view>
+  <view class="isotherturn">
+    <view>{{isotherturn}}</view>
+  </view>
+  <view class="chessArea">
+    <view class="chessrow">
+      <button class="chessBtn" bindtap="cbtn0">
+        {{chess0}}
+      </button>
+      <button class="chessBtn" bindtap="cbtn1">
+        {{chess1}}
+      </button>
+      <button class="chessBtn" bindtap="cbtn2">
+        {{chess2}}
+      </button>
+    </view>
+    <view class="chessrow">
+      <button class="chessBtn" bindtap="cbtn3">
+        {{chess3}}
+      </button>
+      <button class="chessBtn" bindtap="cbtn4">
+        {{chess4}}
+      </button>
+      <button class="chessBtn" bindtap="cbtn5">
+        {{chess5}}
+      </button>  
+    </view>
+    <view class="chessrow">
+      <button class="chessBtn" bindtap="cbtn6">
+        {{chess6}}
+      </button>
+      <button class="chessBtn" bindtap="cbtn7">
+        {{chess7}}
+      </button>
+      <button class="chessBtn" bindtap="cbtn8">
+        {{chess8}}
+      </button>
+    </view>
+    
+  </view>
+  <view class="ismyturn">
+    <view>{{ismyturn}}</view>
+  </view>
+  <view class="playInfo">
+    <view>{{myname}}</view>
+  </view>
+  <button class="restart" bindtap="restart">
+    <view>重新开始</view>
+  </button>
+</view>

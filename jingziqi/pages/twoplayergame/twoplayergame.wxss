@@ -1,0 +1,62 @@
+/* pages/twoplayergame/twoplayergame.wxss */
+/* pages/Game/Game.wxss */
+
+.playerInfo{
+  width:80%;
+}
+
+.winner{
+  margin-bottom: 30rpx;
+  font-size: x-large;
+  width:90%,
+}
+
+.chessArea{
+  width:80%;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.chessrow{
+  display:flex;
+}
+
+.chessBtn{
+  width:130rpx;
+  height:150rpx;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.restart{
+  width:80%;
+  margin-top: 60rpx;
+  background-color: rgba(163, 128, 173);
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.restart::after {
+  border-radius: 98rpx;
+  border: 0; 
+  }
+
+.ismyturn{
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+
+.isotherturn{
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}

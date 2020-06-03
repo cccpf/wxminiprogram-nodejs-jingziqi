@@ -1,0 +1,23 @@
+/* pages/createRoom/createRoom.wxss */
+.input-component{
+  width:70%;
+  margin-top: 75rpx;
+}
+
+.submit-btn{
+  width: 70%;
+  margin-top:75rpx;
+  background-color: rgb(59, 189, 240);
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.submit-btn::after {
+  border-radius: 98rpx;
+  border: 0; 
+}
